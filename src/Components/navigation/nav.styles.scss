@@ -1,0 +1,26 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .NavItem,
+  .ActiveNavItem {
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .ActiveNavItem {
+    border-bottom: none;
+  }
+}

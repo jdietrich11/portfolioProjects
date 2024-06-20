@@ -1,0 +1,19 @@
+.HeaderContainer {
+  max-width: 100rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+    font-size: 6rem;
+    border-bottom: 2px solid grey;
+    text-transform: uppercase;
+  }
+}
