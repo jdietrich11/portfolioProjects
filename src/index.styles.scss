@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: blue;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(182, 182, 182);
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 35%;
+  }
+}
